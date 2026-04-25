@@ -1,36 +1,125 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌍 Urban Risk Intelligence & Policy Dashboard – Nigeria
 
-## Getting Started
+## 📊 Overview
 
-First, run the development server:
+This project presents a **data-driven Urban Risk Intelligence Dashboard** designed to support evidence-based decision-making for urban safety, vulnerability assessment, and policy planning.
+
+The dashboard integrates real-world datasets to simulate **urban pressure, socio-economic stress, and composite risk patterns** relevant to public safety and development contexts.
+
+---
+
+## 🎯 Objective
+
+To demonstrate the ability to:
+
+* Collect and integrate multi-source data
+* Perform data analysis and transformation
+* Develop composite risk indicators
+* Visualize insights for policy and decision-making
+
+---
+
+## 🧠 Key Features
+
+* 📈 **Population Pressure Analysis**
+  Tracks urban growth trends as a proxy for infrastructure and resource demand
+
+* 📉 **Unemployment Stress Indicator**
+  Represents socio-economic vulnerability and potential instability
+
+* 🔴 **Composite Risk Score Model**
+  Combines indicators into a simplified risk index for urban vulnerability analysis
+
+* 💡 **Policy Intelligence Insights**
+  Provides actionable recommendations based on observed data patterns
+
+* 🤖 **AI-Inspired Insight Engine**
+  Simulates analytical interpretation of trends for decision support
+
+---
+
+## 🛠️ Technologies Used
+
+* **Frontend:** Next.js (React Framework)
+* **Data Visualization:** Recharts
+* **API Integration:** Axios
+* **Data Source:** World Bank Open Data API
+* **Deployment:** Vercel
+
+---
+
+## 📡 Data Sources
+
+* World Bank Open Data (Nigeria Indicators)
+
+  * Population Data
+  * Unemployment Rate
+
+---
+
+## ⚙️ Methodology
+
+The dashboard applies a simplified **composite risk model**:
+
+* Population data is normalized to represent **urban pressure**
+* Unemployment rate is used as a proxy for **socio-economic stress**
+* A weighted scoring system combines both indicators into a **risk index (0–100)**
+
+This approach simulates how multi-variable datasets can be used to:
+
+* Identify vulnerability patterns
+* Support early warning systems
+* Guide policy intervention strategies
+
+---
+
+## 📌 Relevance to Policy & Public Safety
+
+This project aligns with analytical needs in:
+
+* Urban risk assessment
+* Crime prevention strategy development
+* Socio-economic vulnerability analysis
+* Data-driven governance and planning
+
+---
+
+## 🚀 Live Demo
+
+👉 [Add your Vercel link here]
+
+---
+
+## 📷 Preview
+
+*(Optional: Add screenshot of your dashboard here)*
+
+---
+
+## 📂 Installation & Setup
 
 ```bash
+git clone https://github.com/ImadeLabs/unodc-dashboard.git
+cd unodc-dashboard
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🌐 Deployment
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+This project is deployed using Vercel for fast and scalable hosting.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 👤 Author
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+**Imade Imade**
+Civil Engineer | Data & Systems Analyst | Researcher
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 📄 License
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is for educational and demonstration purposes.
