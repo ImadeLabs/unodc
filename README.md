@@ -86,13 +86,15 @@ This project aligns with analytical needs in:
 
 ## 🚀 Live Demo
 
-👉 [Add your Vercel link here]
+👉 [https://unodc-eta.vercel.app/]
 
 ---
 
 ## 📷 Preview
 
-*(Optional: Add screenshot of your dashboard here)*
+## 📷 Preview
+
+![Dashboard Preview](./public/dashboardun.png)
 
 ---
 
